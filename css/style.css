@@ -1,0 +1,382 @@
+/* Обнуление */
+@import "null.css";
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic&display=swap");
+
+/* -------------------------------------------------------------------- */
+
+body{
+	font-family: "Roboto";
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+}
+
+
+[class *= "__container"]{
+	max-width: 1020px;
+	margin: 0 auto;
+}
+
+.container{
+	flex: 1 1 auto;
+}
+
+/* ------------------------------------------------------------------------ */
+
+
+.promise {
+	padding: 122px 0;
+	background: #F5F5F5;
+}
+
+.promise__top {
+	margin: 0px 0px 68px 0px;
+}
+
+.titles {}
+
+.titles__overhead {
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 2;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	color: #5D62B5;
+	padding: 0px 0px 0px 33px;
+	background: url('../img/mark.svg') 0 -2px  no-repeat;
+	margin: 0px 0px 33px 0px;
+}
+
+.titles__title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 1.17;
+	color: #000000;
+}
+
+.promise__items {
+	display: flex;
+	gap: 40px 24px;
+	flex-wrap: wrap;
+}
+
+.promise__item {
+	display: flex;
+	max-width: 324px;
+	flex: 1 1 250px;
+}
+
+.pomise__image {
+	flex: 0 0 63px;
+	max-height: 63px;
+	max-width: 100%;
+	align-self: flex-start;
+	margin: 0px 23px 0px 0px;
+}
+
+.promise__body {}
+
+.promise__title {
+	font-weight: 900;
+	font-size: 19px;
+	line-height: 1.37;
+	color: #F2726F;
+	margin: 0px 0px 20px 0px;
+
+}
+
+.promise__text {
+	display: flex;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.15px;
+	color: #4B4B4B;
+	justify-content: flex-end;
+}
+
+
+
+
+
+/* ------------------------------------------------SERVICES--------------------------------------------------------------- */
+
+
+.services {
+	background: #F5F5F5;
+	padding: 110px 0px 113px 0px;
+}
+
+.services__container {
+	position: relative;
+	z-index: 2;
+}
+
+.services__top {
+	margin: 0px 0px 78px 0px;
+}
+
+.titles {}
+
+.services__overhead {
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 2;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	color: #5D62B5;
+	padding: 0px 0px 0px 33px;
+	background: url('../img/mark.svg') 0 -2px no-repeat;
+	margin: 0px 0px 33px 0px;
+}
+
+.services__title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 1.17;
+	color: #000000;
+}
+
+.services__items {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 24px 24px;
+	margin: 0px 0px 75px 0px;
+}
+
+.services__item {
+	flex: 1 1 250px;
+	max-width: 324px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	background: #FFFFFF;
+	border-radius: 20px;
+	padding: 50px 44px 50px 43px;
+}
+
+.services__image {
+	flex: 0 0 63px;
+	width: 63px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.services__img {
+	max-width: 100%;
+	max-height: 63px;
+}
+
+.services__main {
+	font-weight: 900;
+	font-size: 19px;
+	line-height: 1.37;
+	color: #F2726F;
+	margin: 33px 0px 20px 0px;
+}
+
+.services__text {
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.15px;
+	color: #4B4B4B;
+}
+
+.services__button {
+	display: flex;
+	justify-content: center;
+}
+
+.services__btn {
+	text-align: center;
+	background: #F2726F;
+	border-radius: 8px;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 2;
+	letter-spacing: 0.15px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	padding: 12px 25px;
+}
+
+
+/* ----------------------------------------------IMPACT--------------------------------------------------------------------------- */
+
+.impact {
+	background: #29C3BE;
+	position: relative;
+}
+
+
+
+.impact__container {
+	max-width: 1020px;
+	margin: 0 auto;
+	padding: 111px 0px 212px 0px;
+}
+
+.impact__top {
+	display: flex;
+	justify-content: space-between;
+	gap: 40px;
+	flex-wrap: wrap-reverse;
+	margin: 0px 0px 80px 0px;
+}
+
+.impact__body {
+	position: relative;
+	z-index: 3;
+	flex: 0 1 411px;
+}
+
+.impact__subtitle {
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 2;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	position: relative;
+	padding: 0px 0px 0px 33px;
+	margin: 0px 0px 31.68px 0px;
+}
+
+.impact__subtitle::before {
+	content: "";
+	background: url('../img/mark-white.svg') 50% / 30px no-repeat;
+	position: absolute;
+	top: -1px;
+	left: 0;
+	width: 28px;
+	height: 27px;
+}
+
+.imact__title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 1.17;
+	color: #FFFFFF;
+}
+
+.impact__image {
+	margin: -190px 0px 0px 0px;
+	position: relative;
+}
+
+.impact__image::before {
+	content: "";
+	position: absolute;
+	background: url('../img/Blob2.png') 0 0 / 698px no-repeat;
+	top: 80px;
+	right: -90px;
+	width: 695px;
+	height: 308px;
+	z-index: 1;
+	
+}
+
+.impact__item {
+	max-width: 100%;
+	max-height: 315px;
+	position: relative;
+	z-index: 2;
+	border-radius: 40px;
+}
+
+.impact__image::before {}
+
+/* ----------------------------------------------------BOTTOM---------------------------------------------- */
+
+.impact__bottom {
+	display: flex;
+	gap: 50px 24px;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.bottom {}
+
+.bottom__item {
+	display: flex;
+	gap: 11px;
+	flex: 0 1 237px;
+}
+
+.bottom__item_duck {}
+
+.bottom__image {}
+
+.bottom__img {
+	flex: 0 0 73px;
+	max-height: 73px;
+}
+
+.bottom__body {}
+
+.bottom__title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 1.17;
+	color: #FFFFFF;
+	margin: 0px 0px 3px 0px;
+}
+
+.bottom__subtitle {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.15px;
+	color: #5D62B5;
+}
+
+.bottom__item_house {}
+
+.bottom__item_peach {}
+
+.bottom__item_eat {}
+
+
+
+
+
+/* -----------------------------------------------FOOTER-------------------------------------------------------- */
+
+.footer {
+	padding: 23px 0px 18px 0px;
+	background: #5D62B5;
+}
+
+.company {
+}
+
+.company__container {
+}
+
+.company__box{
+	flex-wrap: wrap;
+	display: flex;
+	gap: 20px 30px;
+	justify-content: space-between;
+}
+.company__text-left {
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 1.5;
+	letter-spacing: 0.15px;	
+	color: #FFFFFF;
+}
+
+.company__text-right {
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 1.5;
+	letter-spacing: 0.15px;
+	color: #FFFFFF;
+}
